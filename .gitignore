@@ -1,0 +1,12 @@
+# Logs
+npm-debug.log*
+lerna-debug.log*
+
+# Dependency build directories
+dist/
+
+# Dependency directories
+node_modules/
+
+# Parcel
+.parcel-cache/
