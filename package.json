@@ -28,7 +28,7 @@
   "scripts": {
     "develop": "npx parcel index.html --open",
     "preproduction": "npm run lint",
-    "production": "parcel build src/index.tsx",
+    "production": "parcel build src/*.tsx",
     "lint": "eslint src/*.tsx --quiet --fix",
     "storybook": "start-storybook -p 6006"
   },
